@@ -1,0 +1,29 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="welcome">Welcome to Musical Quiz 2017</string>
+    <string name="checkButton">Im ready. Check results.</string>
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="addWhi">Add whipped cream: </string>
+    <string name="addChoc">Add chocolate: </string>
+    <string name="quantity2">Quantity: </string>
+    <string name="total">Total: $</string>
+    <string name="thankYou">Thank you !</string>
+    <string name="question_one">Ludwig van Beethoven was born in:</string>
+    <string name="question_one_a">1670</string>
+    <string name="question_one_b">1770</string>
+    <string name="question_one_c">1870</string>
+    <string name="question_two">Eric Clapton is famous for playing:</string>
+    <string name="question_two_a">guitar</string>
+    <string name="question_two_b">drums</string>
+    <string name="question_two_c">saxophone</string>
+    <string name="question_three">____ &amp; Roses - famous rock band that rose to fame in the 80/90 and recently reunited</string>
+    <string name="question_four">____ walk - stage element of guitar showmanship popularized by Chuck Berry and then performed by Angus Young of AC/DC</string>
+    <string name="question_five">Select titles of famous songs recorded by Queen (multiple choice question)</string>
+    <string name="question_five_a">We Are the Champions</string>
+    <string name="question_five_b">Smells Like Teen Spirit</string>
+    <string name="question_five_c">Bohemian Rhapsody</string>
+    <string name="testIncomplete">Please input all the answers</string>
+
+
+
+</resources>
