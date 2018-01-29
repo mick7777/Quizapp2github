@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="welcome">Witaj w Muzycznym Quizie 2017</string>
+    <string name="checkButton">Jestem gotowy. Sprawdź wynik.</string>
+    <string name="testIncomplete">Proszę wprowadź wszystkie odpowiedzi.</string>
+    <string name="textQuestionPrompt">Wpisz odpowiedź.</string>
+    <string name="congrats">Gratulacje - ukończyłeś Muzyczny Quiz 2017.</string>
+    <string name="congratspoints">"Liczba zdobytych punktów: "</string>
+
+
+
+    <string-array name="textquestions_array">
+        <item>____ &amp; Roses - sławny zespół rockowy który zdobył popularnośc na przełomie lat 80/90 a ostatnio wznowił działalność</item>
+        <item>GUNS</item>
+        <item>____ walk - element zachowania scenicznego gitarzystów spopularyzowany przez Chucka Berry a następnie wykonywany m.in. przez Angusa Younga z AC/DC</item>
+        <item>DUCK</item>
+        <item>Jakie miasto uznawane jest za kolebkę muzyki grunge</item>
+        <item>SEATTLE</item>
+        <item>More _____ - tytuł skeczu SNL opowiadającego o nagraniu piosenki "Don't Fear The Reaper" zesopłu Blue Öyster Cult</item>
+        <item>COWBELL</item>
+    </string-array>
+
+    <string-array name="radioquestions_array">
+        <item>Ludwig van Beethoven urodził się w roku:</item>
+        <item>1670</item>
+        <item>1770</item>
+        <item>1870</item>
+        <item>b</item>
+        <item>Eric Clapton jest znany z grania na:</item>
+        <item>gitarze</item>
+        <item>perkusji</item>
+        <item>saksofonie</item>
+        <item>a</item>
+        <item>Led Zeppelin jest zespołem pochodzącym z</item>
+        <item>USA</item>
+        <item>Australii</item>
+        <item>UK</item>
+        <item>c</item>
+    </string-array>
+
+    <string-array name="checkboxquestions_array">
+        <item>Wybierz tytułu piosenek nagranych przez Queen (pytanie wielokrotnego wyboru)</item>
+        <item>We Are the Champions</item>
+        <item>Smells Like Teen Spirit</item>
+        <item>Bohemian Rhapsody</item>
+        <item>ac</item>
+        <item>Wybierz tytułu piosenek nagranych przez Michaela Jacksona (pytanie wielokrotnego wyboru)</item>
+        <item>Thriller</item>
+        <item>Earth Song</item>
+        <item>Feeling Good</item>
+        <item>ab</item>
+    </string-array>
+
+
+
+
+
+</resources>

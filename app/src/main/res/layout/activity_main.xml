@@ -31,117 +31,129 @@
             android:layout_marginBottom="16dp"/>
 
         <TextView
+            android:id="@+id/first_random_text_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:text="@string/question_one"
+            android:text="TO BE LOADED"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/input_first_random_text_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:hint="@string/textQuestionPrompt" />
+
+        <TextView
+            android:id="@+id/second_random_text_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="TO BE LOADED"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/input_second_random_text_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:hint="@string/textQuestionPrompt" />
+
+        <TextView
+            android:id="@+id/first_random_radio_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="TO BE LOADED"
             android:layout_marginBottom="8dp"/>
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <RadioButton android:id="@+id/question_one_a"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question_one_a"
-                android:onClick="onRadioButtonClicked"/>
-            <RadioButton android:id="@+id/question_one_b"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question_one_b"
-                android:onClick="onRadioButtonClicked"/>
-            <RadioButton android:id="@+id/question_one_c"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question_one_c"
-                android:onClick="onRadioButtonClicked"/>
-        </RadioGroup>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:text="@string/question_two"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"/>
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <RadioButton android:id="@+id/question_two_a"
+
+            <RadioButton
+                android:id="@+id/radio_one_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_two_a"
+                android:onClick="onRadioButtonClicked"
+                android:text="TO BE LOADED"/>
+
+            <RadioButton
+                android:id="@+id/radio_one_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="TO BE LOADED" />
+
+            <RadioButton
+                android:id="@+id/radio_one_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="TO BE LOADED" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/second_random_radio_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="TO BE LOADED"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_two_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TO BE LOADED"
                 android:onClick="onRadioButtonClickedTwo"/>
-            <RadioButton android:id="@+id/question_two_b"
+            <RadioButton android:id="@+id/radio_two_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_two_b"
+                android:text="TO BE LOADED"
                 android:onClick="onRadioButtonClickedTwo"/>
-            <RadioButton android:id="@+id/question_two_c"
+            <RadioButton android:id="@+id/radio_two_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_two_c"
+                android:text="TO BE LOADED"
                 android:onClick="onRadioButtonClickedTwo"/>
         </RadioGroup>
 
         <TextView
+            android:id="@+id/first_random_checkbox_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:text="@string/question_three"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/input_question_three"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
-            android:hint="first element of the band name" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:text="@string/question_four"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/input_question_four"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
-            android:hint="named after a bird species"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:text="@string/question_five"
+            android:text="TO BE LOADED"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"/>
 
         <CheckBox
-            android:id="@+id/question_five_checkbox_a"
+            android:id="@+id/checkbox_one_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/question_five_a"
+            android:text="TO BE LOADED"
             android:layout_marginBottom="16dp"/>
         <CheckBox
-            android:id="@+id/question_five_checkbox_b"
+            android:id="@+id/checkbox_one_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/question_five_b"
+            android:text="TO BE LOADED"
             android:layout_marginBottom="16dp"/>
         <CheckBox
-            android:id="@+id/question_five_checkbox_c"
+            android:id="@+id/checkbox_one_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/question_five_c"
+            android:text="TO BE LOADED"
             android:layout_marginBottom="16dp"/>
 
         <Button
