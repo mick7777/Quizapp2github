@@ -11,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -302,18 +303,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetResults(View view ) {
         randomizeQuestions();
-        RadioButton RadioButtonOneA = findViewById(R.id.radio_one_a);
-        RadioButton RadioButtonOneB = findViewById(R.id.radio_one_b);
-        RadioButton RadioButtonOneC = findViewById(R.id.radio_one_c);
-        RadioButtonOneA.setChecked(false);
-        RadioButtonOneB.setChecked(false);
-        RadioButtonOneC.setChecked(false);
-        RadioButton RadioButtonTwoA = findViewById(R.id.radio_two_a);
-        RadioButton RadioButtonTwoB = findViewById(R.id.radio_two_b);
-        RadioButton RadioButtonTwoC = findViewById(R.id.radio_two_c);
-        RadioButtonTwoA.setChecked(false);
-        RadioButtonTwoB.setChecked(false);
-        RadioButtonTwoC.setChecked(false);
         EditText questionThreeText = (EditText) findViewById(R.id.input_first_random_text_question);
         questionThreeText.setText(null);
         EditText questionFourText = (EditText) findViewById(R.id.input_second_random_text_question);
@@ -324,5 +313,10 @@ public class MainActivity extends AppCompatActivity {
         questionFiveB.setChecked(false);
         CheckBox questionFiveC = (CheckBox) findViewById(R.id.checkbox_one_c);
         questionFiveC.setChecked(false);
-    }
+        RadioGroup radioGroupOne = (RadioGroup) findViewById(R.id.radio_group_one);
+        radioGroupOne.clearCheck();
+        RadioGroup radioGroupTwo = (RadioGroup) findViewById(R.id.radio_group_two);
+        radioGroupTwo.clearCheck();
+
+}
 }
