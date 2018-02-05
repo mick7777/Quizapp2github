@@ -6,6 +6,7 @@
     <string name="textQuestionPrompt">Input your answer</string>
     <string name="congrats">Congratulations on finishing the Musical Quiz 2017.</string>
     <string name="congratspoints">Number of points scored: </string>
+    <string name="TBL">To be loaded ... </string>
 
 
     <string-array name="textquestions_array">

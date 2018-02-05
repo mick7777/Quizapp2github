@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        randomizeQuestions();
+    }
+
+    public void randomizeQuestions() {
 
         Resources res = getResources();
         textQuestionsPool = res.getStringArray(R.array.textquestions_array);
@@ -294,5 +298,31 @@ public class MainActivity extends AppCompatActivity {
                 public void onFinish() { resultToast.show();}
             }.start();
         }
+    }
+
+    public void resetResults(View view ) {
+        randomizeQuestions();
+        RadioButton RadioButtonOneA = findViewById(R.id.radio_one_a);
+        RadioButton RadioButtonOneB = findViewById(R.id.radio_one_b);
+        RadioButton RadioButtonOneC = findViewById(R.id.radio_one_c);
+        RadioButtonOneA.setChecked(false);
+        RadioButtonOneB.setChecked(false);
+        RadioButtonOneC.setChecked(false);
+        RadioButton RadioButtonTwoA = findViewById(R.id.radio_two_a);
+        RadioButton RadioButtonTwoB = findViewById(R.id.radio_two_b);
+        RadioButton RadioButtonTwoC = findViewById(R.id.radio_two_c);
+        RadioButtonTwoA.setChecked(false);
+        RadioButtonTwoB.setChecked(false);
+        RadioButtonTwoC.setChecked(false);
+        EditText questionThreeText = (EditText) findViewById(R.id.input_first_random_text_question);
+        questionThreeText.setText(null);
+        EditText questionFourText = (EditText) findViewById(R.id.input_second_random_text_question);
+        questionFourText.setText(null);
+        CheckBox questionFiveA = (CheckBox) findViewById(R.id.checkbox_one_a);
+        questionFiveA.setChecked(false);
+        CheckBox questionFiveB = (CheckBox) findViewById(R.id.checkbox_one_b);
+        questionFiveB.setChecked(false);
+        CheckBox questionFiveC = (CheckBox) findViewById(R.id.checkbox_one_c);
+        questionFiveC.setChecked(false);
     }
 }
