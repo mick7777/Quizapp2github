@@ -4,21 +4,24 @@
     <string name="checkButton">Im ready. Check results.</string>
     <string name="testIncomplete">Please input all the answers</string>
     <string name="textQuestionPrompt">Input your answer</string>
-    <string name="congrats">Congratulations on finishing the Musical Quiz 2017.</string>
+    <string name="congrats">Congratulations on finishing the Quiz.</string>
     <string name="congratspoints">Number of points scored: </string>
     <string name="TBL">To be loaded ... </string>
-
+    <string name="gotomusic">Musical Quiz</string>
+    <string name="gotofriends">Friends Quiz</string>
+    <string name="fwelcome">Welcome to Friends Quiz 2017</string>
+    <string name="fcongrats">Congratulations on finishing the Quiz.</string>
 
     <string-array name="textquestions_array">
-    <item>____ &amp; Roses - famous rock band that rose to fame in the 80/90 and recently reunited</item>
-    <item>GUNS</item>
-    <item>____ walk - stage element of guitar showmanship popularized by Chuck Berry and then performed by Angus Young of AC/DC</item>
-    <item>DUCK</item>
-    <item>Which city is referred to as birthplace of grunge music</item>
-    <item>SEATTLE</item>
-    <item>More _____ was a SNL sketch that fictionalizes the recording of the song "(Don't Fear) The Reaper" by Blue Öyster Cult</item>
-    <item>COWBELL</item>
-</string-array>
+        <item>____ &amp; Roses - famous rock band that rose to fame in the 80/90 and recently reunited</item>
+        <item>GUNS</item>
+        <item>____ walk - stage element of guitar showmanship popularized by Chuck Berry and then performed by Angus Young of AC/DC</item>
+        <item>DUCK</item>
+        <item>Which city is referred to as birthplace of grunge music</item>
+        <item>SEATTLE</item>
+        <item>More _____ was a SNL sketch that fictionalizes the recording of the song "(Don't Fear) The Reaper" by Blue Öyster Cult</item>
+        <item>COWBELL</item>
+    </string-array>
 
     <string-array name="radioquestions_array">
         <item>Ludwig van Beethoven was born in:</item>
@@ -51,9 +54,45 @@
         <item>ab</item>
     </string-array>
 
+    <string-array name="ftextquestions_array">
+        <item>Rossa and Monica surname is</item>
+        <item>GELLER</item>
+        <item>Rachels maiden name is</item>
+        <item>GREEN</item>
+        <item>Phoebes siter first name is</item>
+        <item>URSULA</item>
+    </string-array>
 
+    <string-array name="fradioquestions_array">
+        <item>Which actor has not starred in Friends:</item>
+        <item>Lisa Kudrow</item>
+        <item>Brad Pitt</item>
+        <item>Blake Lively</item>
+        <item>c</item>
+        <item>Which actor has starred in Friends:</item>
+        <item>Sylvester Stallone</item>
+        <item>George Clooney</item>
+        <item>Kevin Spacey</item>
+        <item>b</item>
+        <item>Title of Friends thee song was</item>
+        <item>I ll Be There for You</item>
+        <item>Friends</item>
+        <item>New York</item>
+        <item>a</item>
+    </string-array>
 
-
+    <string-array name="fcheckboxquestions_array">
+        <item>Pick names of Rosses wives</item>
+        <item>Carol</item>
+        <item>Janice</item>
+        <item>Emily</item>
+        <item>ac</item>
+        <item>Pick Monicas nicknames</item>
+        <item>Big Fat Goalie</item>
+        <item>Harmonica</item>
+        <item>Wet Head</item>
+        <item>ab</item>
+    </string-array>
 
 
 

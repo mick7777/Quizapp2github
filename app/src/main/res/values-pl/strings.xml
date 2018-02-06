@@ -5,11 +5,13 @@
     <string name="checkButton">Jestem gotowy. Sprawdź wynik.</string>
     <string name="testIncomplete">Proszę wprowadź wszystkie odpowiedzi.</string>
     <string name="textQuestionPrompt">Wpisz odpowiedź.</string>
-    <string name="congrats">Gratulacje - ukończyłeś Muzyczny Quiz 2017.</string>
+    <string name="congrats">Gratulacje - ukończyłeś Quiz.</string>
     <string name="congratspoints">"Liczba zdobytych punktów: "</string>
     <string name="TBL">Trwa ładowanie ... </string>
-
-
+    <string name="gotomusic">Quiz Muzyczny</string>
+    <string name="gotofriends">Quiz Przyjaciele</string>
+    <string name="fwelcome">Witaj w Quizie Przyjaciele 2017</string>
+    <string name="fcongrats">Gratulacje - ukończyłeś Quiz.</string>
 
     <string-array name="textquestions_array">
         <item>____ &amp; Roses - sławny zespół rockowy który zdobył popularnośc na przełomie lat 80/90 a ostatnio wznowił działalność</item>
@@ -54,7 +56,45 @@
     </string-array>
 
 
+    <string-array name="ftextquestions_array">
+        <item>Nazwisko Rossa i Moniki to </item>
+        <item>GELLER</item>
+        <item>Panieńskie nazwisko Rachel to</item>
+        <item>GREEN</item>
+        <item>Imie siostry Phoebe</item>
+        <item>URSULA</item>
+    </string-array>
 
+    <string-array name="fradioquestions_array">
+        <item>Który aktor nie wystąpił w serialu Przyjaciele:</item>
+        <item>Lisa Kudrow</item>
+        <item>Brad Pitt</item>
+        <item>Blake Lively</item>
+        <item>c</item>
+        <item>Który aktor wystąpił w serialu Przyjaciele:</item>
+        <item>Sylvester Stallone</item>
+        <item>George Clooney</item>
+        <item>Kevin Spacey</item>
+        <item>b</item>
+        <item>Tytułowa piosenka serialu Firneds to:</item>
+        <item>I ll Be There for You</item>
+        <item>Friends</item>
+        <item>New York</item>
+        <item>a</item>
+    </string-array>
+
+    <string-array name="fcheckboxquestions_array">
+        <item>Wybierz imiona żon Rossa</item>
+        <item>Carol</item>
+        <item>Janice</item>
+        <item>Emily</item>
+        <item>ac</item>
+        <item>Jakie ksywi miała Monica</item>
+        <item>Big Fat Goalie</item>
+        <item>Harmonica</item>
+        <item>Wet Head</item>
+        <item>ab</item>
+    </string-array>
 
 
 </resources>

@@ -183,5 +183,7 @@
             android:layout_marginTop="8dp"
             android:layout_gravity="center_horizontal"
             android:onClick="resetResults"/>
+
+
     </LinearLayout>
 </ScrollView>

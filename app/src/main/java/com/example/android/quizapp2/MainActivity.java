@@ -1,5 +1,6 @@
 package com.example.android.quizapp2;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -7,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -36,11 +38,21 @@ public class MainActivity extends AppCompatActivity {
     int firstRandomCheckboxQuestionNumber;
     String[] checkboxQuestionsPool;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         randomizeQuestions();
+
+
+
+    }
+
+    public void openFriendsActivity(){
+        Intent intent = new Intent(this, FriendsActivity.class);
+        startActivity(intent);
     }
 
     public void randomizeQuestions() {
@@ -284,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             String pointNumber = String.valueOf(playerScore);
-            String result = getString(R.string.congrats);
+            String result = getString(R.string.fcongrats);
             String resultPoints = getString(R.string.congratspoints);
             result += "\n" + resultPoints + pointNumber;
 
@@ -317,6 +329,7 @@ public class MainActivity extends AppCompatActivity {
         radioGroupOne.clearCheck();
         RadioGroup radioGroupTwo = (RadioGroup) findViewById(R.id.radio_group_two);
         radioGroupTwo.clearCheck();
-
+        Intent intent = new Intent(this, startScreen.class);
+        startActivity(intent);
 }
 }
